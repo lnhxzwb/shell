@@ -22,4 +22,3 @@ echo "$(md5sum -c /tmp/md5.log|grep -i "failed")"
 # md5sum -c /tmp/md5.log|grep -i "failed" >/tmp/failed.log
 # mail -s "$date 文件已修改"  lnhxzwb@126.com </tmp/failed.log
 fi
-
